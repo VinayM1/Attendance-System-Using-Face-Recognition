@@ -11,8 +11,8 @@ from urllib.parse import quote_plus
 import gridfs
 
 # MongoDB connection
-username = "Vinay"
-raw_password = "vinay3112"
+username = "username"
+raw_password = "password"
 password = quote_plus(raw_password)
 uri = f"mongodb+srv://{username}:{password}@attendancesystemusingfa.7pc7r6j.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri, server_api=ServerApi('1'))
