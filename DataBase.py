@@ -5,8 +5,8 @@ from urllib.parse import quote_plus
 
 
 # --- Connection Setup ---
-username = "Vinay"
-raw_password = "vinay3112"  # <-- Update if needed
+username = "UserName"
+raw_password = "Password"  # <-- Update if needed
 password = quote_plus(raw_password)
 
 uri = f"mongodb+srv://{username}:{password}@attendancesystemusingfa.7pc7r6j.mongodb.net/?retryWrites=true&w=majority&authSource=admin"
@@ -48,7 +48,7 @@ student_data = [
     },
     {
         "_id": "2222",
-        "name": "Vinay",
+        "name": "Alex",
         "major": "Electronics & Communication ",
         "starting_year": 2025,
         "total_attendance": 23,
